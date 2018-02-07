@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <!doctype html>
 <html lang="en">
 <head>
@@ -13,28 +16,22 @@
 <section id="one" class="wrapper style1">
 
 <div class="image fit flush">
-    <img src="/images/pic02.jpg" alt="" />
+    <img src="/images/404.png" alt="" />
 </div>
 <header class="special">
 
     <div id="fof" class="clear">
-        <!-- ####################################################################################################### -->
-        <div class="positioned">
+         <div class="positioned">
             <div class="hgroup clear">
-                <h1>404</h1>
                 <h2>Error - Sorry Something Went Wrong !</h2>
             </div>
             <p>For Some Reason The Page You Requested Could Not Be Found On Our Server</p>
         </div>
         <p class="clear"><a class="go-back" href="javascript:history.go(-1)">&laquo; Go Back</a> <a class="go-home" href="#">Go Home &raquo;</a></p>
-        <!-- ####################################################################################################### -->
+
     </div>
 </header>
-<div class="content">
-
-</div>
 </section>
-
 <footer id="footer">
     <div class="container">
         <ul class="icons">
@@ -42,6 +39,8 @@
             <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
             <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
             <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            <li><a href="https://www.linkedin.com/" class="icon fa-linkedin"><span class="label">Linkedin</span> </a> </li>
+            <li><a href="https://github.com/SarnaKhmel" class="icon fa-github"></a><span class="label">GitHub</span> </li>
         </ul>
     </div>
     <div class="copyright">
@@ -58,3 +57,4 @@
 <script src="/resources/assets/js/util.js"></script>
 <script src="/resources/assets/js/main.js"></script>
 
+@endsection
